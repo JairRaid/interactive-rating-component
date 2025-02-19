@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Interactive rating component</title>
+</head>
+
+<body>
+
+    <main>
+        <!-- Rating state start -->
+
+        <section class="rating">
+            <div class="star-container">
+                <img src="./images/icon-star.svg" alt="star icon">
+            </div>
+            <h1>How did we do?</h1>
+
+            <p>Please let us know how we did with your support request. All feedback is appreciated
+                to help us improve our offering!</p>
+
+            <form>
+                <fieldset>
+                    <label class="radioItem">
+                        <input type="radio" name="radio" value="1" class="radioButton" />
+                        <span>1</span>
+                    </label>
+                    <label class="radioItem">
+                        <input type="radio" name="radio" value="2" class="radioButton" />
+                        <span>2</span>
+                    </label>
+                    <label class="radioItem">
+                        <input type="radio" name="radio" value="3" class="radioButton" />
+                        <span>3</span>
+                    </label>
+                    <label class="radioItem">
+                        <input type="radio" name="radio" value="4" class="radioButton" />
+                        <span>4</span>
+                    </label>
+                    <label class="radioItem">
+                        <input type="radio" name="radio" value="5" class="radioButton" />
+                        <span>5</span>
+                    </label>
+                </fieldset>
+                <button type="submit">SUBMIT</button>
+            </form>
+        </section>
+
+        <!-- Rating state end -->
+
+        <!-- Thank you state start -->
+
+        <section class="thank-you">
+            <div class="illustration-container">
+                <img src="./images/illustration-thank-you.svg" alt="thank you illustration">
+            </div>
+            <span class="rating-score">You selected out of 5</span>
+
+            <h2>Thank you!</h2>
+
+            <p>We appreciate you taking the time to give a rating. If you ever need more support,
+                don’t hesitate to get in touch!</p>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body></html>
