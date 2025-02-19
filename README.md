@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://github.com/JairRaid/interactive-rating-component
 - Live Site URL: 
 
 ## My process
