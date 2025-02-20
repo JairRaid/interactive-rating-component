@@ -172,7 +172,8 @@ button[type=submit]:hover {
   }
   h1 {
     font-size: 1.75rem;
-    margin-bottom: 15px;
+    line-height: auto;
+    margin-bottom: 7px;
   }
   p {
     font-size: 0.937rem;
