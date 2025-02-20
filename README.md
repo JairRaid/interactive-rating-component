@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/JairRaid/interactive-rating-component
-- Live Site URL: 
+- Live Site URL: https://jairraid.github.io/interactive-rating-component/
 
 ## My process
 
